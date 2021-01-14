@@ -1,0 +1,54 @@
+header{
+    background-color: #FFFBF0;
+    
+}
+.title-1{
+    color: #FABE4C;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    
+}
+.title-2{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+.panda-button{
+    background-color: #A4BC46;
+    color: white;
+    border-radius: .5em;  
+}
+.panda-button img{
+    width: 1.2em;
+}
+.women-card, .women-card-pic{
+    border-radius: 15px;
+
+}
+.option-column{
+    width: 100px;
+
+}
+
+.last-pera img{
+    width: 100px;
+}
+.side-row{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 15px;
+}
+
+.side-col img{
+    padding-right:20px;
+}
+.side-col-row{
+    padding:2px 15px;
+}
+@media(max-width:992px){
+side-row{
+    grid-template-rows:100px;
+    
+}
+}
