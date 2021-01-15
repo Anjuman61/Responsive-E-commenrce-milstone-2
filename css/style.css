@@ -6,7 +6,6 @@ header{
     color: #FABE4C;
     font-family: 'Bebas Neue', cursive;
     font-weight: bold;
-    
 }
 .title-2{
     color: #363958;
@@ -21,34 +20,26 @@ header{
 .panda-button img{
     width: 1.2em;
 }
-.women-card, .women-card-pic{
+.product-card{
     border-radius: 15px;
-
+    width: 300px;
 }
-.option-column{
-    width: 100px;
-
+.product-pic{
+    border-radius: 15px;
+    background-color: rgba(235, 226, 226, 0.973); 
+    margin: 15px 15px;
+    padding: 10px 10px;
+    height: 250px;
+    object-position: center;
 }
-
-.last-pera img{
-    width: 100px;
-}
-.side-row{
-    display: grid;
-    grid-template-columns: 600px 1fr;
-    grid-template-rows: 100px 100px 100px;
-    grid-gap: 15px;
-}
-
 .side-col img{
     padding-right:20px;
+    width: 80px;
 }
-.side-col-row{
-    padding:2px 15px;
-}
-@media(max-width:992px){
-side-row{
-    grid-template-rows:100px;
-    
-}
+.shopping-cart{
+    width: 490px;
+    height:400px;
+    padding-top: 50px;
+    padding-left: 60px;
+    object-position: center;
 }
